@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العمدة فياض | استيراد الشاحنات والنقل الثقيل من ألمانيا</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Cairo -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Info Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-info">
+                <span><i class="fa-solid fa-location-dot"></i> كفر الزيات - طريق مصر إسكندرية الزراعي (بعد نفق الدلجمون)</span>
+                <span><i class="fa-solid fa-truck-ramp-box"></i> شاحنات مستوردة مباشرة من ألمانيا</span>
+            </div>
+            <div class="top-phones">
+                <a href="tel:01005243057"><i class="fa-solid fa-phone"></i> أ. محمود فياض: 01005243057</a>
+                <a href="tel:01067696946"><i class="fa-solid fa-phone"></i> أ. علي فياض: 01067696946</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-truck-monster"></i></div>
+                <div class="logo-text">
+                    <h1>العمدة <span>فياض</span></h1>
+                    <p>لاستيراد الشاحنات والنقل الثقيل</p>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">الرئيسية</a></li>
+                    <li><a href="#about" class="nav-link">عن الشركة</a></li>
+                    <li><a href="#inventory" class="nav-link">معرض الشاحنات</a></li>
+                    <li><a href="#location" class="nav-link">الموقع والجغرافيا</a></li>
+                    <li><a href="#contact" class="nav-link">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="https://wa.me/201005243057" target="_blank" class="btn-whatsapp-header">
+                    <i class="fa-brands fa-whatsapp"></i> واتساب الإدارة
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE 1: HOME PAGE -->
+    <div id="home-page" class="page-tab active">
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <div class="hero-badge"><i class="fa-solid fa-award"></i> الهندسة والأناقة الألمانية بأسعار تنافسية</div>
+                <h2>قوة النقل الثقيل المستورد <br>مباشرة من <span class="gold-text">ألمانيا</span></h2>
+                <p>نوفر لك أحدث الشاحنات العالمية مع الفحص الشامل وضمان الجودة والأوراق الجمركية السليمة. عاين شاحنتك القادمة الآن في معرضنا بكفر الزيات.</p>
+                
+                <div class="hero-brands">
+                    <div class="brand-chip"><i class="fa-solid fa-truck-front"></i> Mercedes Actros MP4 <span class="available-badge">متوفر حالياً</span></div>
+                    <div class="brand-chip"><i class="fa-solid fa-truck"></i> Mercedes Actros MP3</div>
+                    <div class="brand-chip"><i class="fa-solid fa-truck-moving"></i> Volvo Trucks</div>
+                </div>
+
+                <div class="hero-buttons">
+                    <a href="#inventory" class="btn-primary" onclick="switchTab('inventory')"><i class="fa-solid fa-store"></i> تصفح المعرض الآن</a>
+                    <a href="#location" class="btn-secondary" onclick="switchTab('location')"><i class="fa-solid fa-map-location-dot"></i> زيارة المعرض بكفر الزيات</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Status Banner -->
+        <section class="status-banner">
+            <div class="container status-container">
+                <div class="status-box">
+                    <div class="status-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <div>
+                        <h4>فحص ألماني معتمد</h4>
+                        <p>جميع المعدات مفحوصة بدقة عالية في ألمانيا قبل الشحن</p>
+                    </div>
+                </div>
+                <div class="status-box highlight">
+                    <div class="status-icon"><i class="fa-solid fa-circle-check"></i></div>
+                    <div>
+                        <h4>MP4 متوفرة الآن بالمعرض</h4>
+                        <p>شاحنات مرسيدس MP4 جاهزة للمعاينة والتسليم الفوري</p>
+                    </div>
+                </div>
+                <div class="status-box">
+                    <div class="status-icon"><i class="fa-solid fa-file-contract"></i></div>
+                    <div>
+                        <h4>تخليص جمركي كامـل</h4>
+                        <p>جميع الأوراق الرسمية والإجراءات الجمركية منتهية جاهزة للترخيص</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Inventory Preview -->
+        <section class="section inventory-preview">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <span class="sub-title">المعيار الألماني</span>
+                        <h2 class="section-title">أحدث الشاحنات في المعرض</h2>
+                    </div>
+                    <a href="#inventory" class="view-all-btn" onclick="switchTab('inventory')">عرض كل الموديلات <i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+
+                <div class="trucks-grid">
+                    <!-- Truck 1: MP4 -->
+                    <div class="truck-card">
+                        <div class="card-badge gold">متوفر حالياً بالمعرض</div>
+                        <div class="card-image">
+                            <img src="truck1.jpg" alt="مرسيدس أكتروس MP4">
+                            <div class="brand-tag"><i class="fa-solid fa-star"></i> Mercedes-Benz MP4</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>مرسيدس أكتروس MP4 (Mercedes Actros MP4)</h3>
+                            <p class="truck-desc">استيراد ألمانيا بحالة الفابريقة، أعلى فئة طراز وأكبر كابينة مع أعلى معدلات توفير الوقود.</p>
+                            <ul class="specs-list">
+                                <li><i class="fa-solid fa-microchip"></i> المحرك: 1845 / 1848 HP Euro 6</li>
+                                <li><i class="fa-solid fa-gear"></i> فتيس: أوتوماتيك PowerShift 3</li>
+                                <li><i class="fa-solid fa-shield-halved"></i> الحالة: ممتازة جاهزة للعمل فوراً</li>
+                            </ul>
+                            <div class="card-actions">
+                                <a href="https://wa.me/201005243057?text=أريد%20الاستفسار%20عن%20مرسيدس%20MP4" target="_blank" class="btn-card-wa"><i class="fa-brands fa-whatsapp"></i> واتساب أ. محمود</a>
+                                <a href="tel:01005243057" class="btn-card-call"><i class="fa-solid fa-phone"></i> اتصال</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Truck 2: Volvo -->
+                    <div class="truck-card">
+                        <div class="card-badge blue">متاح للطلب والاستيراد</div>
+                        <div class="card-image">
+                            <img src="truck2.jpg" alt="شاحنة فولفو FH">
+                            <div class="brand-tag"><i class="fa-solid fa-shield"></i> Volvo FH Series</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>شاحنات فولفو (Volvo FH16 / FH500)</h3>
+                            <p class="truck-desc">ملك الطرق والمواقف الصعبة، سحب خيالي وأنظمة أمان متطورة مستوردة مباشرة من ألمانيا.</p>
+                            <ul class="specs-list">
+                                <li><i class="fa-solid fa-gauge-high"></i> القوة: 500 - 750 حصان</li>
+                                <li><i class="fa-solid fa-gears"></i> فتيس: I-Shift الذكي</li>
+                                <li><i class="fa-solid fa-truck-ramp-box"></i> خيارات تجهيز ونقل ثقيل متكاملة</li>
+                            </ul>
+                            <div class="card-actions">
+                                <a href="https://wa.me/201067696946?text=أريد%20الاستفسار%20عن%20شاحنات%20فولفو" target="_blank" class="btn-card-wa"><i class="fa-brands fa-whatsapp"></i> واتساب أ. علي</a>
+                                <a href="tel:01067696946" class="btn-card-call"><i class="fa-solid fa-phone"></i> اتصال</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PAGE 2: ABOUT PAGE -->
+    <div id="about-page" class="page-tab">
+        <section class="page-header-banner">
+            <div class="container">
+                <h2>عن شركة العمدة فياض</h2>
+                <p>تاريخ حافل بالثقة والتفوق في مجال استيراد وتجارة الشاحنات والمعدات الثقيلة</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <span class="sub-title">خبرة وثقة</span>
+                        <h2>نحن نختار أفضل الشاحنات من قلب ألمانيا إلى مصر مباشرة</h2>
+                        <p>تعتبر شركة <strong>العمدة فياض</strong> واحدة من الأسماء الرائدة والموثوقة في جمهورية مصر العربية ومحافظة الغربية لتجارة واستيراد الشاحنات ورؤوس التريلات والنقل الثقيل.</p>
+                        <p>نعتمد على المعايير الصارمة في الاختيار من ألمانيا؛ حيث يتم فحص المحركات، الفتيس، والشاسيهات للتأكد من مطابقتها لأعلى معايير الجودة والسلامة قبل وصولها للمعرض بكفر الزيات.</p>
+                    </div>
+                    <div class="about-image-side">
+                        <img src="truck3.jpg" alt="شاحنة ألمانية فخمة">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Management Section -->
+        <section class="section management-section">
+            <div class="container">
+                <div class="section-header center">
+                    <span class="sub-title">قيادة الشركة</span>
+                    <h2 class="section-title">إدارة شركة العمدة فياض</h2>
+                </div>
+
+                <div class="managers-grid">
+                    <div class="manager-card">
+                        <div class="manager-avatar"><i class="fa-solid fa-user-tie"></i></div>
+                        <h3>أ / محمود فياض</h3>
+                        <span class="manager-title">الإدارة والتخطيط</span>
+                        <p>للتواصل المباشر والاستفسارات التجارية وحجز الموديلات:</p>
+                        <a href="tel:01005243057" class="manager-phone"><i class="fa-solid fa-mobile-screen-button"></i> 01005243057</a>
+                        <a href="https://wa.me/201005243057" target="_blank" class="manager-wa"><i class="fa-brands fa-whatsapp"></i> مراسلة واتساب</a>
+                    </div>
+
+                    <div class="manager-card">
+                        <div class="manager-avatar"><i class="fa-solid fa-user-gear"></i></div>
+                        <h3>أ / علي فياض</h3>
+                        <span class="manager-title">الإدارة والمبيعات</span>
+                        <p>للمعاينة والمبيعات والاستيراد المباشر حسب الطلب:</p>
+                        <a href="tel:01067696946" class="manager-phone"><i class="fa-solid fa-mobile-screen-button"></i> 01067696946</a>
+                        <a href="https://wa.me/201067696946" target="_blank" class="manager-wa"><i class="fa-brands fa-whatsapp"></i> مراسلة واتساب</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PAGE 3: INVENTORY PAGE -->
+    <div id="inventory-page" class="page-tab">
+        <section class="page-header-banner">
+            <div class="container">
+                <h2>معرض الشاحنات المتاحة والمستوردة</h2>
+                <p>اختر من بين أحدث الموديلات المتوفرة في المعرض أو اطلب شاحنتك الخاصة مباشرة من ألمانيا</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" onclick="filterTrucks('all')">جميع الشاحنات</button>
+                    <button class="filter-btn" onclick="filterTrucks('mp4')">مرسيدس MP4 (متوفر الآن)</button>
+                    <button class="filter-btn" onclick="filterTrucks('mp3')">مرسيدس MP3</button>
+                    <button class="filter-btn" onclick="filterTrucks('volvo')">شاحنات فولفو Volvo</button>
+                </div>
+
+                <div class="trucks-grid full-inventory">
+                    <!-- MP4 Item 1 -->
+                    <div class="truck-card truck-item mp4">
+                        <div class="card-badge gold">متوفر حالياً بالمعرض</div>
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80" alt="Mercedes MP4">
+                            <div class="brand-tag">Mercedes MP4 GigaSpace</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>مرسيدس أكتروس MP4 - 1848</h3>
+                            <p class="truck-desc">استيراد ألماني - كابينة جيجا سبيس واسعة، ريتاردر، تكييف درايفت، جاهزة للمعاينة بكفر الزيات.</p>
+                            <div class="card-actions">
+                                <a href="https://wa.me/201005243057?text=تفاصيل%20مرسيدس%20MP4%201848" class="btn-card-wa"><i class="fa-brands fa-whatsapp"></i> طلب السعر والتفاصيل</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MP4 Item 2 -->
+                    <div class="truck-card truck-item mp4">
+                        <div class="card-badge gold">متوفر حالياً بالمعرض</div>
+                        <div class="card-image">
+                            <img src="truck4.jpg" alt="Mercedes MP4 BigSpace">
+                            <div class="brand-tag">Mercedes MP4 BigSpace</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>مرسيدس أكتروس MP4 - 1845</h3>
+                            <p class="truck-desc">محرك يورو 6 موفر جداً للوقود، أنظمة الفرامل التلقائية، حالة فابريقة بالكامل.</p>
+                            <div class="card-actions">
+                                <a href="https://wa.me/201005243057?text=تفاصيل%20مرسيدس%20MP4%201845" class="btn-card-wa"><i class="fa-brands fa-whatsapp"></i> طلب السعر والتفاصيل</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Volvo Item -->
+                    <div class="truck-card truck-item volvo">
+                        <div class="card-badge blue">متاح للاستيراد بالطلب</div>
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1586191582056-a3674686522c?auto=format&fit=crop&w=800&q=80" alt="Volvo Truck">
+                            <div class="brand-tag">Volvo FH Globetrotter</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>شاحنة فولفو Volvo FH500</h3>
+                            <p class="truck-desc">قوة الموتور السويدي مع رفاهية القيادة الألمانية، تكنولوجيا أمان وحساسات مسار كاملة.</p>
+                            <div class="card-actions">
+                                <a href="https://wa.me/201067696946?text=استفسار%20عن%20فولفو%20FH500" class="btn-card-wa"><i class="fa-brands fa-whatsapp"></i> طلب مواصفات فولفو</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PAGE 4: LOCATION PAGE -->
+    <div id="location-page" class="page-tab">
+        <section class="page-header-banner">
+            <div class="container">
+                <h2>الموقع الجغرافي ومعرض كفر الزيات</h2>
+                <p>تشرفنا زيارتكم لمشاهدة الشاحنات والمعدات على أرض الواقع ومعاينتها</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="location-wrapper">
+                    <div class="location-details-card">
+                        <div class="loc-badge"><i class="fa-solid fa-map-pin"></i> موقع المعرض بالتفصيل الدقيق</div>
+                        <h3>معرض شركة العمدة فياض للنقل الثقيل</h3>
+                        
+                        <div class="loc-item">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <div>
+                                <strong>الدولة والمحافظة:</strong>
+                                <p>جمهورية مصر العربية - محافظة الغربية - مدينة كفر الزيات</p>
+                            </div>
+                        </div>
+
+                        <div class="loc-item">
+                            <i class="fa-solid fa-road"></i>
+                            <div>
+                                <strong>الطريق الرئيسي:</strong>
+                                <p>على طريق (مصر - إسكندرية) الزراعي مباشرة</p>
+                            </div>
+                        </div>
+
+                        <div class="loc-item highlight-loc">
+                            <i class="fa-solid fa-compass"></i>
+                            <div>
+                                <strong>العلامة المميزة بالقرب منا:</strong>
+                                <p>بعد نفق الدلجمون مباشرة - <strong>أمام مركز عطوان جروب للسيارات</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder-card">
+                        <div class="map-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h4>خريطة كفر الزيات - طريق مصر إسكندرية الزراعي</h4>
+                        <p>نحن على بُعد دقيقة واحدة من نفق الدلجمون أمام عطوان جروب للسيارات مباشرة.</p>
+                        <div class="managers-contact-mini">
+                            <p><strong>هواتف الإدارة والاستقبال:</strong></p>
+                            <a href="tel:01005243057"><i class="fa-solid fa-phone"></i> 01005243057 (أ. محمود فياض)</a>
+                            <a href="tel:01067696946"><i class="fa-solid fa-phone"></i> 01067696946 (أ. علي فياض)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- PAGE 5: CONTACT PAGE -->
+    <div id="contact-page" class="page-tab">
+        <section class="page-header-banner">
+            <div class="container">
+                <h2>تواصل مع إدارة شركة العمدة فياض</h2>
+                <p>نحن جاهزون للإجابة على جميع استفساراتكم وتوفير المواصفات والأسعار مباشرة</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>بيانات الاتصال المباشر</h3>
+                        <p>يمكنكم الاتصال مباشرة مع إدارة الشركة للإصدارات المتوفرة وحجز الشاحنات:</p>
+
+                        <div class="contact-card-box">
+                            <div class="contact-icon"><i class="fa-solid fa-user-tie"></i></div>
+                            <div>
+                                <h4>الأستاذ / محمود فياض</h4>
+                                <span class="role">الإدارة العامة</span>
+                                <a href="tel:01005243057" class="phone-link"><i class="fa-solid fa-phone"></i> 01005243057</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-card-box">
+                            <div class="contact-icon"><i class="fa-solid fa-user-gear"></i></div>
+                            <div>
+                                <h4>الأستاذ / علي فياض</h4>
+                                <span class="role">إدارة المبيعات والتسليم</span>
+                                <a href="tel:01067696946" class="phone-link"><i class="fa-solid fa-phone"></i> 01067696946</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-side">
+                        <h3>إرسال رسالة سريعة للإدارة</h3>
+                        <form id="quick-contact-form" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <label>اسمك الكريـم:</label>
+                                <input type="text" id="form-name" required placeholder="أدخل اسمك بالكامل">
+                            </div>
+
+                            <div class="form-group">
+                                <label>رقم الهاتف للاتصال:</label>
+                                <input type="tel" id="form-phone" required placeholder="مثال: 010xxxxxxx">
+                            </div>
+
+                            <div class="form-group">
+                                <label>نوع الشاحنة المطلوبة:</label>
+                                <select id="form-truck">
+                                    <option value="MP4">مرسيدس MP4 (متوفرة حالياً بالمعرض)</option>
+                                    <option value="MP3">مرسيدس MP3 (طلب استيراد)</option>
+                                    <option value="Volvo">شاحنات فولفو Volvo</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>تفاصيل الرسالة أو الاستفسار:</label>
+                                <textarea id="form-msg" rows="4" placeholder="اكتب استفسارك هنا..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-primary full-width-btn"><i class="fa-paper-plane fa-solid"></i> إرسال الاستفسار فوراً</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-about">
+                <h3>العمدة <span>فياض</span></h3>
+                <p>الشركة الرائدة في استيراد أحدث الشاحنات الألمانية Mercedes MP4, MP3 و Volvo بحالة الفابريقة وبأفضل أداء على الطرق المصرية.</p>
+            </div>
+
+            <div class="footer-contacts">
+                <h4>اتصل بالإدارة</h4>
+                <p><i class="fa-solid fa-phone"></i> أ. محمود فياض: <a href="tel:01005243057">01005243057</a></p>
+                <p><i class="fa-solid fa-phone"></i> أ. علي فياض: <a href="tel:01067696946">01067696946</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 جميع الحقوق محفوظة لشركة **العمدة فياض** لاستيراد الشاحنات والنقل الثقيل.</p>
+        </div>
+    </footer>
+
+    <!-- Fixed Floating WhatsApp Button -->
+    <a href="https://wa.me/201005243057" target="_blank" class="floating-whatsapp" title="تواصل معنا فوراً عبر الواتساب">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
